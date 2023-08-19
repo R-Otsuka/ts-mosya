@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "tsc": "tsc",
-    "build": "webpack"
+    "build": "webpack",
+    "auto": "ts-node-dev --respawn ts/index.ts"
   },
   "author": "",
   "license": "ISC",
