@@ -19,7 +19,7 @@ type MyReadOnly<T> = {
 type MyReadonlyUtil = Readonly<Todo>;
 
 const todo: MyReadOnly<Todo> = {
-title: 'hello',
+  title: 'hello',
   description: 'world',
 };
 

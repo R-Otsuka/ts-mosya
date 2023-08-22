@@ -6,7 +6,7 @@
   "scripts": {
     "tsc": "tsc",
     "build": "webpack",
-    "auto": "ts-node-dev --respawn ts/index.ts"
+    "auto": "ts-node-dev --respawn ts/$npm_config_path/index.ts"
   },
   "author": "",
   "license": "ISC",
